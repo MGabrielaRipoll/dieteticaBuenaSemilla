@@ -58,12 +58,10 @@ ul{
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    color: rgb(228, 184, 11);
 }
 li{
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     color: rgb(228, 184, 11);
     font-weight: bold;
     font-size: xx-large;
@@ -76,6 +74,30 @@ li{
     width: 300px;
     height: 300px;
 }
+footer{
+    background-color: rgb(243, 243, 2);
+}
+h3{
+    font-size: 30px;
+}
+.logoWs {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logoWs.active {
+    transform: translateY(-50px);
+}
+
+/* .logoWs{
+    width: 80px;
+    height: 80px;
+    position:sticky;
+    padding: 20px;
+    margin-top: 300px;
+} */
 .logos{
     width: 80px;
     height: 80px;
